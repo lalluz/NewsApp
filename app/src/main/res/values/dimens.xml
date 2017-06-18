@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margin -->
+    <dimen name="margin_standard">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="top_margin_progress_bar">80dp</dimen>
+    <!-- Padding -->
+    <dimen name="padding_standard">16dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <!-- Text -->
+    <dimen name="title_text">18sp</dimen>
+    <dimen name="message_text">22sp</dimen>
+</resources>

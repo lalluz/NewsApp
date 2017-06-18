@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="header">Europe News</string>
+    <string name="button_refresh">Refresh Button</string>
+    <string name="news_thumbnail">News Thumbnail</string>
+</resources>

@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+    
+    <!-- activity_main -->
+    <!-- Message TextView not covering the content -->
+    <style name="message_not_covering">
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_small</item>
+    </style>
+    <!-- Message TextView full page -->
+    <style name="message_text_view">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/message_text</item>
+    </style>
+    <!-- Progress bar -->
+    <style name="progress_bar" parent="Base.Widget.AppCompat.ProgressBar">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/top_margin_progress_bar</item>
+    </style>
+    
+    <!-- list_item -->
+    <!-- Layout with section and date -->
+    <style name="section_and_date_layout">
+        <item name="android:background">@color/background</item>
+        <item name="android:paddingTop">@dimen/padding_standard</item>
+        <item name="android:paddingLeft">@dimen/padding_standard</item>
+        <item name="android:paddingRight">@dimen/padding_standard</item>
+    </style>
+    <!-- Date -->
+    <style name="date">
+        <item name="android:paddingRight">@dimen/padding_standard</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <!-- Title -->
+    <style name="title">
+        <item name="android:background">@color/background</item>
+        <item name="android:padding">@dimen/padding_standard</item>
+        <item name="android:textSize">@dimen/title_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
